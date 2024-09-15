@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #393939;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header h1{
+    color: #C3C3C3;
+    color: #47535F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: 100;
+    position: relative;
+    top: 24px;
+    left: 65px;
+}
+nav{
+    float: right;
+}
+nav img{
+    width: 40px;
+    position: relative;
+    right: 64px;
+}
+
+.menu-container {
+    position: relative;
+    float: right;
+    bottom: 30px;
+    right: 10px;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 15px;
+    /* background-color: #000000; */
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+
+.menu-overlay { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #47535F; /* Dark green background */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.overlay-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    /* Darker green background for the header */
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.close-button {
+    background: none; 
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+}
+
+.close-button:hover {
+    color: red;
+}
+
+.menu-overlay .menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100% - 60px); /* Adjusted for the header height */
+}
+
+.menu-overlay a {
+    color: rgb(255, 254, 254);
+    font-size: 24px;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    transition: background-color 0.8s;
+}
+
+.menu-overlay a:hover {
+    background-color: #979494; /* Slightly darker green for hover effect */
+}
+.main{
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
+.main-hellothere h1{
+    color: #00BBFF;
+    font-size: 50px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+
+color: #47535F;
+
+
+}
+.main-hellothere p{
+    font-size: 20px;
+    width: 800px;
+height: 122px;
+
+font-family: 'Biryani';
+font-style: normal;
+
+
+color: #47535F;
+}
+.main-hellothere p:nth-last-of-type(1){
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+
+
+.section{
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
+.section-tech h1{
+    color: #00BBFF;
+    font-size: 50px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+
+color: #47535F;
+
+
+}
+.section-tech p{
+    font-size: 20px;
+    width: 800px;
+height: 122px;
+
+font-family: 'Biryani';
+font-style: normal;
+
+
+color: #47535F;
+}
+
+.skills{
+    display: flex;
+    font-size: 20px;
+    color: #47535F;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+}
+.skills ul:nth-child(1){
+    line-height: 50px;
+}
+.skills ul:nth-child(2){
+    position: relative;
+    left: 150px;
+    line-height: 50px;
+}
+
+.footer{
+    width: 100%;
+    height: 240px;
+    background-color: #47535F;
+    position: relative;
+    top: 200px;
+}
+.social-media{
+    color: #CBCBCB;
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    position: relative;
+    left: 450px;
+    top: 70px;
+}
+.social-media a{
+    color: #CBCBCB;
+    text-decoration: none;
+}
+.copy-right{
+    color: #CBCBCB;
+    position: relative;
+    left: 460px;
+    top: 180px;
+}
+
+
+.in-touch{
+    width: 1051px;
+    height: 180px;
+    background-color: #47535F;
+    position: relative;
+    top: 140px;
+    left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.in-touch-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 30px;
+}
+.in-touch-start button{
+    width: 259px;
+    height: 49px;
+    font-size: 25px;
+    background-color: #979494;
+    color: #19232F;
+    border: none;
+}
+.in-touch-start a{
+    color: #edeff2;
+    text-decoration: none;
+}
+.in-touch-start h1{
+    color: white;
+    font-family: sans-serif;
+
+}
+.in-touch-start p{
+    font-size: 20px;
+    color: white;
+}
