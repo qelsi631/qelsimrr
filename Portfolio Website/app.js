@@ -1,3 +1,6 @@
+alert("If you are using a mobile you can see that my website is still not very responsive")
+
+
 function toggleMenu() {
     const menuOverlay = document.getElementById('menuOverlay');
     if (menuOverlay.style.display === 'block') {

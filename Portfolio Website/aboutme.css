@@ -1,11 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #393939;
     background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .container{
@@ -262,3 +266,94 @@ color: #47535F;
     font-size: 20px;
     color: white;
 }
+
+
+ @media only screen and (max-width: 390px){
+
+    *{
+        width: 390px;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    .header h1:nth-of-type(1) {
+        font-size: 18px;
+        position: relative;
+        left: 30px;
+        top: 20px;
+    }
+
+    
+    .header{
+        width: 100%;
+        position: relative;
+    }
+   .menu-overlay{
+    width: 390px;
+   }
+    .menu-content{
+        width: 260px;
+        position: relative;
+        left: 39px;
+        height: 200px;
+        top: -600px;
+        font-size: 13px;
+    }
+
+    main{
+        width: 390px;
+        position: relative;
+        left: 200px;
+    }
+
+
+
+
+
+
+
+    /* .in-touch{
+        width: 290px;
+        position: relative;
+        left: 20px;
+    }
+    .in-touch-start h1{
+        font-size: 18px;
+    }
+    .in-touch-start p{
+        font-size: 13px;
+        width: 160px;
+    } */
+    .in-touch{
+        position: relative;
+        top: 110px;
+        width: 300px;
+        left: 26px;
+    }
+    .in-touch-start button{
+        position: relative;
+        right: 15px;
+
+    }
+    .in-touch-start p{
+        position: relative;
+        right: 1px;
+    }
+    .in-touch-start h1{
+        position: relative;
+        right: 3px;
+    }
+
+    .footer{
+        width: 390px;
+    }
+    .social-media{
+        position: relative;
+        left: 50px;
+    }
+    .copy-right{
+        position: relative;
+        left: 50px;
+    }
+} 
+

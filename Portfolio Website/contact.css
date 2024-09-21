@@ -6,6 +6,9 @@
 body{
     background-color: #393939;
     background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .container{
@@ -213,4 +216,9 @@ button:hover {
     position: relative;
     left: 460px;
     top: 180px;
+}
+
+
+@media only screen and (max-width: 390px){
+    
 }
