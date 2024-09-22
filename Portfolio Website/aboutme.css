@@ -268,84 +268,109 @@ color: #47535F;
 }
 
 
- @media only screen and (max-width: 390px){
+ 
 
-    *{
-        width: 390px;
-        margin: 0;
-        box-sizing: border-box;
-        padding: 0;
-    }
+
+@media only screen and (min-width: 390px) {
     .header h1:nth-of-type(1) {
         font-size: 18px;
         position: relative;
         left: 30px;
         top: 20px;
     }
+   
 
     
     .header{
-        width: 100%;
-        position: relative;
-    }
-   .menu-overlay{
-    width: 390px;
-   }
-    .menu-content{
-        width: 260px;
-        position: relative;
-        left: 39px;
-        height: 200px;
-        top: -600px;
-        font-size: 13px;
-    }
-
-    main{
         width: 390px;
         position: relative;
-        left: 200px;
     }
 
+    .menu-content{
+        width: 390px;
+    }
+    .menu-overlay{
+        width: 390px;
+    }
+    
 
-
-
-
-
-
-    /* .in-touch{
-        width: 290px;
+    .main{
+        width: 390px;
         position: relative;
-        left: 20px;
+        left: 30px;
+        top: 70px;
     }
-    .in-touch-start h1{
-        font-size: 18px;
+    .main-hellothere h1{
+        font-size: 33px;
+
     }
-    .in-touch-start p{
-        font-size: 13px;
-        width: 160px;
-    } */
+    .main-hellothere p:nth-of-type(1){
+        width: 340px;
+        line-height: 32px;
+        position: relative;
+        bottom: 5px;
+    }
+    .main-hellothere p:nth-of-type(2){
+        width: 340px;
+        position: relative;
+        bottom: 0px;
+        line-height: 32px;
+    }
+
+    .section{
+        width: 390px;
+        position: relative;
+        left: 30px;
+    }
+    .section-tech h1{
+        font-size: 33px;
+        
+    }
+    .section-tech p{
+        width: 330px;
+        line-height: 32px;
+    }
+    
+    .skills{
+        position: relative;
+        left: 21px;
+        top: 30px;
+        width: 250px;
+    }
+    .skills ul:nth-of-type(2){
+        position: relative;
+        left: 120px;
+    }
+
+
     .in-touch{
         position: relative;
-        top: 110px;
-        width: 300px;
-        left: 26px;
+        top: 190px;
+        width: 320px;
+        left: 36px;
     }
     .in-touch-start button{
         position: relative;
-        right: 15px;
 
     }
     .in-touch-start p{
         position: relative;
-        right: 1px;
+        right: -15px;
+        font-size: 19px;
+        width: 230px;
     }
     .in-touch-start h1{
         position: relative;
-        right: 3px;
+        right: -13px;
+        font-size: 22px;
+        top: 7px;
     }
 
+
     .footer{
-        width: 390px;
+        width: 391px;
+        position: relative;
+        top: 260px;
     }
     .social-media{
         position: relative;
@@ -353,7 +378,8 @@ color: #47535F;
     }
     .copy-right{
         position: relative;
-        left: 50px;
+        left: 60px;
     }
-} 
 
+
+    }
