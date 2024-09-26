@@ -19,6 +19,13 @@ body{
     float: right;
     z-index: 4;
 }
+.music button{
+    border: none;
+    background-color: #47535F;
+    color: white;
+    padding: 5px;
+    cursor: cell;
+}
 
 .container{
     display: flex;
