@@ -123,6 +123,9 @@ nav img{
     font-size: 31px;
     position: relative;
     /* top: 330px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: #47535F;
 }
 
 .group-projects{
@@ -214,3 +217,224 @@ nav img{
 
 
 
+
+.footer{
+    width: 100%;
+    height: 240px;
+    background-color: #47535F;
+    position: relative;
+    top: 400px;
+}
+.social-media{
+    color: #CBCBCB;
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    position: relative;
+    left: 450px;
+    top: 70px;
+}
+.social-media a{
+    color: #CBCBCB;
+    text-decoration: none;
+}
+.copy-right{
+    color: #CBCBCB;
+    position: relative;
+    left: 460px;
+    top: 180px;
+}
+
+
+
+.in-touch{
+    width: 1051px;
+    height: 180px;
+    background-color: #47535F;
+    position: relative;
+    top: 280px;
+    left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.in-touch-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 30px;
+}
+.in-touch-start button{
+    width: 259px;
+    height: 49px;
+    font-size: 25px;
+    background-color: #979494;
+    color: #19232F;
+    border: none;
+}
+.in-touch-start a{
+    color: #edeff2;
+    text-decoration: none;
+}
+.in-touch-start h1{
+    color: white;
+    font-family: sans-serif;
+
+}
+.in-touch-start p{
+    font-size: 20px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .header h1:nth-of-type(1) {
+        font-size: 18px;
+        position: relative;
+        left: 30px;
+        top: 20px;
+    }
+
+    html, body{
+        overflow-x: hidden;
+    }
+
+    .group-projects{
+        width: 320px;
+        position: relative;
+    }
+
+
+    }
+
+
+    @media (max-width: 768px) {
+       
+    
+        .menu-container {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+        .menu-icon{
+            position: relative;
+            bottom: 20px;
+        }
+    
+        .header h1 {
+            font-size: 24px;
+            left: 20px;
+            position: relative;
+            top: 13px;
+        }
+    
+        .footer {
+            height: auto;
+        }
+    
+        .social-media {
+            gap: 10px;
+        }
+        .project-left p{
+            font-size: 7px;
+            position: relative;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        
+        .header h1 {
+            font-size: 20px;
+            position: relative;
+            top: 10px;
+        }
+    
+        .menu-icon {
+            font-size: 25px;
+            position: relative;
+            bottom: 20px;
+        }
+    
+        .menu-overlay .menu-content a {
+            font-size: 20px;
+        }
+    
+        .social-media{ 
+            display: flex;
+            font-size: 14px;
+        }
+
+        .project-left p:nth-last-of-type(1){
+            font-size: 17px;
+            width: 270px;
+            bottom: 40px;
+            position: relative;
+        }
+        .project-left p:nth-last-of-type(2){
+        
+        }
+        .project-right img:nth-last-of-type(2){
+            width: 240px;
+            height: 160px;
+            
+        }
+        .project-right img:nth-last-of-type(1){
+            width: 240px;
+            height: 140px;
+           position: relative;
+           top: 30px;
+            
+        }
+        .project-right img{
+            position: relative;
+            right: 250px;
+            top: 175px;
+        }
+
+        .project-left img{
+            position: relative;
+            right: 20px;
+        }
+        .fleximgs{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100px;
+            position: relative;
+            top: 20px;
+        }
+        .project-paragraf{
+            position: relative;
+            top: -13px;
+        }
+
+        
+        .in-touch{
+            width: 300px;
+            height: 200px;
+            position: relative;
+            left: 50px;
+        }
+        .in-touch-start h1{
+            font-size: 23px;
+        }
+        .in-touch-start button{
+            position: relative;
+            right: 9px;
+        }
+        
+        .footer{
+            position: relative;
+            top: 350px;
+            height: 240px;
+        }
+        .social-media{
+            position: relative;
+            left: 70px;
+        }
+        .copy-right{
+            position: relative;
+            left: 70px;
+        }
+    }
+    

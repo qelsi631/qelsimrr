@@ -1,4 +1,4 @@
-alert("If you are using a mobile you can see that my website is still not very responsive")
+// alert("If you are using a mobile you can see that my website is still not very responsive")
 
 var audio = document.getElementById("myAudio");
       
